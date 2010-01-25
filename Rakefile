@@ -5,12 +5,19 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "super_crud"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Abstracts some helper model and controller logic}
+    gem.description = %Q{This is a admin system abstraction to get you up and running faster}
     gem.email = "jnarowski@gmail.com"
     gem.homepage = "http://github.com/jnarowski/super_crud"
     gem.authors = ["John Paul Narowski"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    gem.files = [
+       "LICENSE",
+       "README.rdoc",
+       "Rakefile",
+       Dir["{spec,lib}/**/*"],
+       "test/helper.rb",
+       "test/test_metastrano.rb"
+    ]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
