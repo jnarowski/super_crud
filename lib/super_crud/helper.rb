@@ -1,5 +1,6 @@
 module SuperCrud
   module Helper
+    
     #----------------------------------------------------------------
     # framework stuff
     #----------------------------------------------------------------
@@ -97,7 +98,6 @@ module SuperCrud
       options.merge!(@extra_params)
       "<div class='pagination'>#{will_paginate(collection, :params => options, :remote => {})}</div>#{float_clear}"
     end
-
 
     def super_triangle(attribute)
       return "&#9650;" if @ordering == "ascend_by_#{attribute}" 

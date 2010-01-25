@@ -1,0 +1,125 @@
+/* -----------------------------------------------*/
+/*  Resets
+/* -----------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;font-weight: normal;vertical-align: baseline;}
+ul {list-style-type: none;}
+
+body { font: 12px Arial, Helvetica, sans-serif; }
+a:focus {border: none !important;}
+
+h1 { color: #D66418; font-size: 26px; margin-top: 1px; }
+
+#table-footer { color: #A7A7A7; margin-top: 14px; font-size: 16px; }
+#table-footer a { color: #096; text-decoration: none; }
+#table-footer .current { color: #000; }
+
+#show { border: 1px dashed #eee; padding: 7px; margin-top: 7px; border-left: 0px; border-right: 0px; }
+
+/* -----------------------------------------------*/
+/* Form								  
+/* -----------------------------------------------*/
+
+input, textarea { border: 2px solid #DDDDDD; padding: 3px; font-size: 13px; }
+label.strong { display: block; font-weight: bold; }
+label { display: block; font-weight: bold; }
+.buttons { border-top: 1px solid #eee; margin-top: 14px; padding-top: 14px; }
+.buttons input { font-size: 20px; 
+	-moz-border-radius: 5px;
+}
+.buttons .cancel { margin: 10px; }
+.buttons .cancel a { color: red; }
+
+/* -----------------------------------------------*/
+/* General								  
+/* -----------------------------------------------*/
+
+.wrapper {margin: auto; width: 990px;}
+.flash .notice { background: #F3FFFB; margin-top: 14px; margin-bottom: 14px; border: 1px solid #009966; padding: 7px; color: #009966; }
+
+.button a { 
+	display: block; padding: 7px; text-decoration: none; color: #666;
+	-moz-border-radius: 10px;
+	color: #666;
+	font-size: 13px; text-decoration: none; color: #3e5a7b; background: #f2f3f3 url(/images/admin/heading-btn-bg.jpg) 0 100% repeat-x; border: 1px solid #d4d4d4;
+}
+
+#filter { font-weight: bold !important; border: 1px solid #FFFF7E; padding: 7px; font-size: 12px; margin-bottom: 14px; background: #FFFA70; border: 1px solid #D6D014; width: 740px; -moz-border-radius: 5px; } 
+
+/* -----------------------------------------------*/
+/* Header					  
+/* -----------------------------------------------*/
+
+#header {
+	height: 31px;
+	border-bottom: 1px solid #80A1C2;
+	background: #369; padding: 7px; font-size: 14px; color: #89A5C2;
+}
+#header a { color: #fff; text-decoration: none; }
+#header a { display: block; float: left; padding: 7px; margin-right: 7px; }
+#header a:hover, #header a.selected { background: #DAEAFA;
+	color: #369;
+	-moz-border-radius: 10px;
+}
+
+#sub-header { 
+	padding: 7px 14px; margin-bottom: 21px; background: #eee; 
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border: 1px solid #ccc; border-top: 0px;
+}
+
+#sub-header .button { float: right; }
+#body { }
+
+
+/* -----------------------------------------------*/
+/* Float & Align Control								  
+/* -----------------------------------------------*/
+
+.float-left {float: left;}
+.float-right {float: right;}
+.float-clear {clear: both; display: block; font-size: 0; line-height: 0;}
+.clear-left {clear: left;}
+.clear-right {clear: right;}
+.align-center { text-align: center;}
+
+/* -----------------------------------------------*/
+/* Sidebar  
+/* -----------------------------------------------*/
+#sidebar .module { 
+	float: right; background: #F0F7FF; border: 1px solid #ACCCF1; padding: 14px; width: 195px; 
+	-moz-border-radius: 10px;
+}
+#sidebar #search { width: 188px; } 
+#sidebar input { 
+	-moz-border-radius: 5px;
+}
+
+/* -----------------------------------------------*/
+/* Data Table							  
+/* -----------------------------------------------*/
+
+.stripped-list {border:0px solid #eee;}
+.stripped-list td {color: #333; padding: 4px 7px;}
+.stripped-list tr.padded-td td { padding-top: 10px; padding-bottom: 10px;}
+.stripped-list th { border-right: 0px solid #E0E0E0; font-size: 12px; padding-left: 5px; border-bottom: 1px solid #eee; color: #666; font-weight: bold; text-align: left; padding: 7px 7px; padding-top: 0px; }
+.stripped-list th.no-right-border { border-right: 0px; }
+.stripped-list th a {color: #666; text-decoration: none;}
+.stripped-list th a:hover {color: #036;}
+.stripped-list td a { text-decoration: none; color: #369;}
+.stripped-list td a:hover { color: #D66418 !important; }
+.stripped-list td a:visited { text-decoration: none; color: #369;}
+.stripped-list .line-0 td {background: #fefefe; border-bottom: 1px solid #eee;}
+.stripped-list .line-1 td {background: #FAFAFA; border-bottom: 1px solid #eee;}
+.stripped-list .hover td {background: #ffc !important;}
+
+.defaultText { color: #666; width: 300px; }
+.defaultTextActive { color: #a1a1a1; font-style: italic; }
